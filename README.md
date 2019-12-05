@@ -1,5 +1,11 @@
 # mail-sendgrid
 
+[![Travis](https://img.shields.io/travis/hardwario/mail-sendgrid/master.svg)](https://travis-ci.org/hardwario/mail-sendgrid)
+[![Release](https://img.shields.io/github/release/hardwario/mail-sendgrid.svg)](https://github.com/hardwario/mail-sendgrid/releases)
+[![License](https://img.shields.io/github/license/hardwario/mail-sendgrid.svg)](https://github.com/hardwario/mail-sendgrid/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/mail-sendgrid.svg)](https://pypi.org/project/mail-sendgrid/)
+
+
 ```sh
 mail-sendgrid --help
 ```
