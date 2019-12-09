@@ -126,7 +126,7 @@ def cli(from_email, to_emails, cc_emails, bcc_emails, subject, content, attachme
     if no_send:
         print(content)
     else:
-        sg = sendgrid.SendGridAPIClient(apikey=apikey)
+        sg = sendgrid.SendGridAPIClient(api_key=apikey)
         sg.client.mail.send.post(request_body=mail.get())
         click.echo('Email was send')
 
