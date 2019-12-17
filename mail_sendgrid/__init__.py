@@ -114,7 +114,7 @@ def cli(from_email, to_emails, cc_emails, bcc_emails, subject, content, attachme
     for k, v in variable:
         variables[k] = v
 
-    content = template.render(**variables)
+    content = template.render(env=os.environ, **variables)
 
     if nl2br:
         content = content.replace('\n', '<br />\n')
